@@ -1,28 +1,58 @@
-'use client'
+"use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
-
-
+import { ThemeSwitch } from "./ThemeSwitch";
 
 const Navbar = () => {
-  const pathName = usePathname()
+  const pathName = usePathname();
   const links = (
     <>
       <li>
-        <Link href="/" className={pathName === '/' ? 'text-primary': ''}>Home</Link>
+        <Link href="/" className={pathName === "/" ? "text-primary" : ""}>
+          Home
+        </Link>
       </li>
       <li>
-        <Link href="/about" className={pathName === '/about' ? 'text-primary': ''}>About</Link>
+        <Link
+          href="/about"
+          className={pathName === "/about" ? "text-primary" : ""}
+        >
+          About
+        </Link>
       </li>
-      <li><Link href="/blog" className={pathName === '/blog' ? 'text-primary': ''}>Blog</Link></li>
       <li>
-        <Link href="/dashboard" className={pathName === '/dashboard' ? 'text-primary': ''}>Dashboard</Link>
+        <Link
+          href="/blog"
+          className={pathName === "/blog" ? "text-primary" : ""}
+        >
+          Blog
+        </Link>
       </li>
       <li>
-        <Link href="/contact" className={pathName === '/contact' ? 'text-primary': ''}>Contact</Link>
+        <Link
+          href="/dashboard"
+          className={pathName === "/dashboard" ? "text-primary" : ""}
+        >
+          Dashboard
+        </Link>
       </li>
-
+      <li>
+        <Link
+          href="/tasks"
+          className={pathName === "/tasks" ? "text-primary" : ""}
+        >
+          Tasks
+        </Link>
+      </li>
+      <li>
+        <Link
+          href="/contact"
+          className={pathName === "/contact" ? "text-primary" : ""}
+        >
+          Contact
+        </Link>
+      </li>
     </>
   );
   return (
@@ -54,13 +84,15 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <Link href="/" className="btn btn-ghost text-xl">daisyUI</Link>
+        <Link href="/" className="btn btn-ghost text-xl">
+          daisyUI
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+       <ThemeSwitch></ThemeSwitch>
       </div>
     </div>
   );

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Learn React Components",
+    "description": "Understand how functional components work in React.",
+    "completed": false,
+    "priority": "high",
+    "assignedTo": "Shompa",
+    "status": "in-progress",
+    "dueDate": "2026-10-07",
+    "tags": ["react", "components", "beginner"],
+    "createdAt": "2026-10-06T09:00:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Practice JSX",
+    "description": "Create different UI elements using JSX syntax.",
+    "completed": true,
+    "priority": "medium",
+    "assignedTo": "Shompa",
+    "status": "completed",
+    "dueDate": "2026-10-06",
+    "tags": ["react", "jsx", "practice"],
+    "createdAt": "2026-10-06T09:15:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Learn React Props",
+    "description": "Practice passing data from parent components to child components.",
+    "completed": false,
+    "priority": "high",
+    "assignedTo": "Shompa",
+    "status": "pending",
+    "dueDate": "2026-10-08",
+    "tags": ["react", "props", "components"],
+    "createdAt": "2026-10-06T09:30:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Learn useState",
+    "description": "Build a counter application using the useState hook.",
+    "completed": false,
+    "priority": "high",
+    "assignedTo": "Shompa",
+    "status": "pending",
+    "dueDate": "2026-10-09",
+    "tags": ["react", "hooks", "useState"],
+    "createdAt": "2026-10-06T09:45:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Build a Todo App",
+    "description": "Create a simple todo application with add and delete functionality.",
+    "completed": false,
+    "priority": "high",
+    "assignedTo": "Shompa",
+    "status": "pending",
+    "dueDate": "2026-10-11",
+    "tags": ["react", "project", "todo"],
+    "createdAt": "2026-10-06T10:00:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Practice Array Methods",
+    "description": "Practice map, filter, find, and reduce in JavaScript.",
+    "completed": true,
+    "priority": "medium",
+    "assignedTo": "Shompa",
+    "status": "completed",
+    "dueDate": "2026-10-06",
+    "tags": ["javascript", "arrays", "practice"],
+    "createdAt": "2026-10-06T10:15:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Learn React Events",
+    "description": "Practice handling click, change, and submit events.",
+    "completed": false,
+    "priority": "medium",
+    "assignedTo": "Shompa",
+    "status": "in-progress",
+    "dueDate": "2026-10-10",
+    "tags": ["react", "events", "forms"],
+    "createdAt": "2026-10-06T10:30:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Learn useEffect",
+    "description": "Understand side effects and fetch data using useEffect.",
+    "completed": false,
+    "priority": "high",
+    "assignedTo": "Shompa",
+    "status": "pending",
+    "dueDate": "2026-10-12",
+    "tags": ["react", "hooks", "useEffect", "api"],
+    "createdAt": "2026-10-06T10:45:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Practice API Fetching",
+    "description": "Fetch task data from a REST API and display it in React.",
+    "completed": false,
+    "priority": "medium",
+    "assignedTo": "Shompa",
+    "status": "pending",
+    "dueDate": "2026-10-13",
+    "tags": ["react", "api", "rest", "fetch"],
+    "createdAt": "2026-10-06T11:00:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Build a Task Dashboard",
+    "description": "Create a dashboard showing completed, pending, and high-priority tasks.",
+    "completed": false,
+    "priority": "high",
+    "assignedTo": "Shompa",
+    "status": "pending",
+    "dueDate": "2026-10-15",
+    "tags": ["react", "dashboard", "project", "ui"],
+    "createdAt": "2026-10-06T11:15:00Z"
+  }
+]
